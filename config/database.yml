@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: vetcarecloud
+  username: postgres
+  password: ebonyblu1
+  pool: 5
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_recording_test
+  pool: 5
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_production
+  pool: 5
